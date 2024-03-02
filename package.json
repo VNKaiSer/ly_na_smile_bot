@@ -1,0 +1,22 @@
+{
+  "name": "ly_na_smile_bot",
+  "version": "1.0.0",
+  "description": "Ly Na Smile",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "VNKaiser",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-telegram-bot-api": "^0.64.0",
+    "nodemon": "^3.1.0",
+    "spotify-web-api-node": "^5.0.2",
+    "ytdl-core": "^4.11.5"
+  }
+}
